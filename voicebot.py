@@ -104,7 +104,7 @@ def main():
   # 사이드바 설명
   with st.sidebar:
     # OpenAI API Key 입력받기
-    openai.api_key = st.text_input(label = 'OpenAI API Key', placeholder = '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', value = '', type = 'password')
+    openai.api_key = st.text_input(label = 'OpenAI API Key', placeholder = '', value = '', type = 'password')
     # openai.api_key = st.text_input(label = 'OpenAI API Key', placeholder = 'Enter Your API Key', value = '', type = 'password')
 
     st.markdown('----------------')
